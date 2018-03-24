@@ -1,4 +1,4 @@
-var topics = ["Daffy Duck", "Wile E Coyote", "Homer Simpson", "Krusty The Clown", "Milhouse", "Meatwad", "Master Shake", "Scooby Doo", "Brak", "Randy Marsh"]
+var topics = ["Daffy Duck", "Wile E Coyote", "Homer Simpson", "Krusty The Clown", "Milhouse", "Meatwad", "Master Shake", "Scooby Doo", "Brak", "Randy Marsh", "Mickey Mouse", "Spongebob"]
 var newCharacter = "";
 
 $("#characterCreation").on("click", function(){
@@ -52,6 +52,13 @@ $("#buttons").on("click", function(){
         }
     })
 })
+
+
+$("#newChar").keyup(function(event) {
+    if (event.keyCode === 13) {
+        $("#characterCreation").click();
+    }
+});
 
 
 $("#gifs").on("click", function(event){
