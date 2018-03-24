@@ -44,3 +44,8 @@ img {
     margin: 30px 0 5px 0; 
     /* position: relative; */
 }
+
+#anim {
+    display: inline-block;
+    padding: 20px;
+}
