@@ -1,4 +1,4 @@
-var topics = ["Daffy Duck", "Wile E Coyote", "Porkie Pig", "Homer Simpson", "Krusty The Clown", "Milhouse", "Meatwad", "Master Shake", "Scooby Doo"]
+var topics = ["Daffy Duck", "Wile E Coyote", "Homer Simpson", "Krusty The Clown", "Milhouse", "Meatwad", "Master Shake", "Scooby Doo", "Brak", "Randy Marsh"]
 var newCharacter = "";
 
 $("#characterCreation").on("click", function(){
